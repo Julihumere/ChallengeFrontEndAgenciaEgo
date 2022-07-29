@@ -69,6 +69,45 @@
   display: none;
 }
 
+@media screen and (max-width: 1000px) {
+  .filters__buttons {
+    display: none;
+  }
+  .filters__select__buttons {
+    display: block;
+    width: 5rem;
+    border: none;
+  }
+  .filters__sort {
+    width: 6rem;
+    border: none;
+    position: relative;
+    right: 1rem;
+  }
+  .filters__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 4rem;
+  }
+
+  .content-select .filters__sort {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    height: 42px;
+    position: relative;
+    transition: all 0.25s ease;
+  }
+
+  .filters__sort option {
+    background-color: rgb(207, 207, 207);
+    border-end-start-radius: 10px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .filters__buttons {
     display: none;

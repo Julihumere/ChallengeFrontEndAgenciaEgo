@@ -148,6 +148,7 @@ export default function DataSheet() {
       </div>
 
       <div className="model__types"></div>
+      <footer className="home__footer"></footer>
     </div>
   );
 }
