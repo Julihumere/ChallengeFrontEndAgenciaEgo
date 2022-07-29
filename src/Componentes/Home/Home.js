@@ -16,7 +16,7 @@ export default function Modelos({ menuActive }) {
   console.log(allModels);
 
   return (
-    <div className="algo">
+    <div>
       <div className="home__container">
         <div className="home__title">
           <h1>Descubrí todos los modelos</h1>

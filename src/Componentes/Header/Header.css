@@ -98,14 +98,14 @@
   z-index: 999;
 }
 
-.header__fondo {
+.header__background {
   position: absolute;
   z-index: 1;
   width: 77%;
   height: 100%;
   background-color: #252525;
 }
-.home__fondo {
+.home__background {
   position: absolute;
   z-index: 998;
   width: 100%;
@@ -159,7 +159,7 @@
     margin-top: 1.1rem;
   }
 
-  .header__fondo {
+  .header__background {
     display: none;
   }
   .home__menuActive {
@@ -225,7 +225,7 @@
     margin-top: 1.1rem;
   }
 
-  .header__fondo {
+  .header__background {
     display: none;
   }
   .home__menuActive {

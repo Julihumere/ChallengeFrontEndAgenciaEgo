@@ -69,7 +69,7 @@ export default function Header() {
             </ul>
           </nav>
         ) : (
-          <div className="header__fondo"></div>
+          <div className="header__background"></div>
         )}
 
         <div className="header__title__menu">
@@ -95,7 +95,7 @@ export default function Header() {
       </header>
       {menuActive ? (
         <>
-          <div className="home__fondo"></div>
+          <div className="home__background"></div>
           <div className="home__menuActive">
             <div className="home__list_white">
               <div className="header__button__cerrar__responsive">

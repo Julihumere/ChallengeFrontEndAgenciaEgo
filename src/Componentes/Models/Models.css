@@ -54,13 +54,13 @@
   position: relative;
   top: 2rem;
 }
-#root > div > div.algo > div > div.home__cards > div:nth-child(3) > img {
+#root > div > div > div > div.home__cards > div:nth-child(3) > img {
   height: 90px;
   position: relative;
   top: 1.8rem;
 }
 
-#root > div > div.algo > div > div.home__cards > div:nth-child(3) > a > button {
+#root > div > div > div > div.home__cards > div:nth-child(3) > a > button {
   position: relative;
   top: 4rem;
 }
