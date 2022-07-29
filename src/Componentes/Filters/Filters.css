@@ -1,0 +1,109 @@
+.filters__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.filters__buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  position: relative;
+  left: 1.5rem;
+}
+
+.filters__buttons h2 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.07875000685453415px;
+  text-align: left;
+  color: #373737;
+  margin-right: 1.5rem;
+}
+.filters__buttons button {
+  position: relative;
+
+  margin-right: 1rem;
+  background: none;
+  border: none;
+  background: #f7f7f7;
+  border-radius: 18px;
+  padding: 0.7rem 1rem;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.07875000685453415px;
+  text-align: center;
+}
+.content-select {
+  max-width: 250px;
+  position: relative;
+}
+.content-select .filters__sort {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  height: 42px;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.filters__sort option {
+  background-color: rgb(207, 207, 207);
+  border-end-start-radius: 10px;
+}
+
+.filters__underline {
+  width: 104%;
+  height: 0.06rem;
+  background-color: #cccccc;
+}
+
+.filters__select__buttons {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .filters__buttons {
+    display: none;
+  }
+  .filters__select__buttons {
+    display: block;
+    width: 5rem;
+    border: none;
+  }
+  .filters__sort {
+    width: 6rem;
+    border: none;
+    position: relative;
+    right: 1rem;
+  }
+  .filters__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 4rem;
+  }
+
+  .content-select .filters__sort {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    height: 42px;
+    position: relative;
+    transition: all 0.25s ease;
+  }
+
+  .filters__sort option {
+    background-color: rgb(207, 207, 207);
+    border-end-start-radius: 10px;
+  }
+}

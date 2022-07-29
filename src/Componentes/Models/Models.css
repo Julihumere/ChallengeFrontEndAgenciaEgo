@@ -1,0 +1,66 @@
+.models__card {
+  width: 14rem;
+  height: 17rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.models__card:hover {
+  color: red;
+}
+
+.models__title {
+  height: 3rem;
+  margin-top: 0.2rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.models__info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #191919;
+}
+.models__photo {
+  width: 228px;
+  height: 152px;
+}
+
+.models__view {
+  background-color: #191919;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  width: 9.5rem;
+  height: 2.3rem;
+  cursor: pointer;
+}
+
+/* CSS de Yaris Hatchback */
+
+#root > div > div.home__container > div > div:nth-child(3) > img {
+  height: 40px;
+  position: relative;
+  top: 2rem;
+}
+#root > div > div.algo > div > div.home__cards > div:nth-child(3) > img {
+  height: 90px;
+  position: relative;
+  top: 1.8rem;
+}
+
+#root > div > div.algo > div > div.home__cards > div:nth-child(3) > a > button {
+  position: relative;
+  top: 4rem;
+}
